@@ -17,8 +17,8 @@ const App = () => {
 
 
   return (
-    <div className=' w-full bg-zinc-400 flex flex-col' >
-      <div className='  h-[100px] bg-gray-400 flex justify-center items-center rounded-lg'>
+    <div className=' w-full h-screen bg-zinc-400  flex flex-col' >
+      <div className='  h-[100px]  flex justify-center items-center rounded-lg '>
       <Form FormHandleSubmitData={FormHandleSubmitData}/>
       </div>
       <div className='w-[80%] mx-auto  mt-4'>
