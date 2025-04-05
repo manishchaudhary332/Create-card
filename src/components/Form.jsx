@@ -10,11 +10,11 @@ const Form = ({FormHandleSubmitData}) => {
   }
 
   return (
-    <div className='flex mt-10 justify-center w-[700px]  gap-3'>
+    <div className='  '>
     <form action="'" onSubmit={handleSubmit(handleFromSubmit )}>
-        <input {...register('name')} className='border-2 rounded  bg-white' type="text"  placeholder='Name' />
-        <input {...register('Email')} className='border-2 rounded  bg-white' type="Email"  placeholder='Email' />
-        <input {...register('img')} className='border-2 rounded  bg-white' type="text"  placeholder='Img Url' /> 
+        <input {...register('name')} className='border-2 border-green-500 rounded hover:border-red-500  bg-white' type="text"  placeholder='Name' />
+        <input {...register('Email')} className='border-2 border-green-500 rounded hover:border-red-500  bg-white' type="Email"  placeholder='Email' />
+        <input {...register('img')} className='border-2 border-green-500 rounded hover:border-red-500  bg-white' type="text"  placeholder='Img Url' /> 
         <input className='bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-400 cursor-pointer' type="submit" />
     </form>
     </div>

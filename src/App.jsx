@@ -17,9 +17,14 @@ const App = () => {
 
 
   return (
-    <div className='h-screen w-full bg-gray-500 flex flex-col justify-center items-center p-10' >
-      <Cards handleRemove={handleRemove} users={users}/>
+    <div className=' w-full bg-zinc-400 flex flex-col' >
+      <div className='  h-[100px] bg-gray-400 flex justify-center items-center rounded-lg'>
       <Form FormHandleSubmitData={FormHandleSubmitData}/>
+      </div>
+      <div className='w-[80%] mx-auto  mt-4'>
+      <Cards handleRemove={handleRemove} users={users}/>
+
+      </div>
 
     </div>
   )
